@@ -1,0 +1,20 @@
+body, html{
+     height: 100%;
+     background-color: #fafafa;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../imgs/parallax.jpg");
+
+    /* Full height 
+    background-color: black;
+    height: 100px; */
+    height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
